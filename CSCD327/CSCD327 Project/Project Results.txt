@@ -1,0 +1,148 @@
+PDF Output:
+******** Query 0 ********
+Name
+Zhang
+Shankar
+Peltier
+Levy
+Williams
+Brown
+Bourikas
+******** Query 1 ********
+ID        Name      GPA       
+00128     Zhang     3.87      
+12345     Shankar   3.43      
+19991     Brandt    3.00      
+23121     Chavez    2.30      
+44553     Peltier   2.70      
+54321     Williams  3.50      
+55739     Sanchez   3.70      
+76543     Brown     4.00      
+76653     Aoi       2.00      
+98988     Tanaka    4.00      
+******** Query 2 ********
+Course_ID Sec_ID    Title                         Semester  Year      Name           Enrollment 
+BIO-101   1         Intro. to Biology             Summer    2009      Crick          1          
+BIO-301   1         Genetics                      Summer    2010      Crick          1          
+CS-101    1         Intro. to Computer Science    Fall      2009      Srinivasan     6          
+CS-190    2         Game Design                   Spring    2009      Brandt         2          
+CS-319    1         Image Processing              Spring    2010      Katz           1          
+CS-319    2         Image Processing              Spring    2010      Brandt         1          
+CS-347    1         Database System Concepts      Fall      2009      Srinivasan     2          
+EE-181    1         Intro. to Digital Systems     Spring    2009      Kim            1          
+FIN-201   1         Investment Banking            Spring    2010      Wu             1          
+HIS-351   1         World History                 Spring    2010      El Said        1          
+PHY-101   1         Physical Principles           Fall      2009      Einstein       1          
+******** Query 3 ********
+Building  Room_Number Frequency 
+Taylor    3128      5          
+******** Query 4 ********
+Course                        Pre-req    
+Intro. to Biology             N/A        
+Genetics                      Intro. to Biology 
+Computational Biology         Intro. to Biology 
+Intro. to Computer Science    N/A        
+Game Design                   Intro. to Computer Science 
+Robotics                      Intro. to Computer Science 
+Image Processing              Intro. to Computer Science 
+Database System Concepts      Intro. to Computer Science 
+Intro. to Digital Systems     Physical Principles 
+Investment Banking            N/A        
+World History                 N/A        
+Music Video Production        N/A        
+Physical Principles           N/A        
+******** Query 5 ********
+ID        Name      Dept_Name      Tot_cred   
+00128     Zhang     Comp. Sci.     7         2          
+12345     Shankar   Comp. Sci.     14        4          
+19991     Brandt    History        3         1          
+23121     Chavez    Finance        3         1          
+44553     Peltier   Physics        4         1          
+45678     Levy      Physics        7         2          
+54321     Williams  Comp. Sci.     8         2          
+55739     Sanchez   Music          3         1          
+70557     Snow      Physics        0         0          
+76543     Brown     Comp. Sci.     7         2          
+76653     Aoi       Elec. Eng.     3         1          
+98765     Bourikas  Elec. Eng.     7         2          
+98988     Tanaka    Biology        4         2          
+******** Query 6 ********
+Please enter the Department Name: 
+Comp. Sci.
+Comp. Sci. Department has 3 instructors
+Comp. Sci. Department has a total salary of $232000.0
+Comp. Sci. Department has a budget of $100000.0
+******** Query 7 ********
+ID        Name      First Semester    Last Semester 
+128       Zhang     Fall 2009         Fall 2009  
+12345     Shankar   Spring 2009       Spring 2010 
+19991     Brandt    Spring 2010       Spring 2010 
+23121     Chavez    Spring 2010       Spring 2010 
+44553     Peltier   Fall 2009         Fall 2009  
+45678     Levy      Fall 2009         Spring 2010 
+54321     Williams  Spring 2009       Fall 2009  
+55739     Sanchez   Spring 2010       Spring 2010 
+76543     Brown     Fall 2009         Spring 2010 
+76653     Aoi       Spring 2009       Spring 2009 
+98765     Bourikas  Fall 2009         Spring 2010 
+98988     Tanaka    Summer 2009       Summer 2010 
+
+Process finished with exit code 0
+
+
+
+
+
+Results for different Departments:
+******** Query 6 ********
+Please enter the Department Name: 
+Biology
+Biology Department has 1 instructors
+Biology Department has a total salary of $72000.0
+Biology Department has a budget of $90000.0
+
+
+
+
+******** Query 6 ********
+Please enter the Department Name: 
+Finance
+Finance Department has 2 instructors
+Finance Department has a total salary of $170000.0
+Finance Department has a budget of $120000.0
+
+
+
+******** Query 6 ********
+Please enter the Department Name: 
+Elec. Eng.
+Elec. Eng. Department has 1 instructors
+Elec. Eng. Department has a total salary of $80000.0
+Elec. Eng. Department has a budget of $85000.0
+
+
+
+******** Query 6 ********
+Please enter the Department Name: 
+History
+History Department has 2 instructors
+History Department has a total salary of $122000.0
+History Department has a budget of $50000.0
+
+
+
+******** Query 6 ********
+Please enter the Department Name: 
+Physics
+Physics Department has 2 instructors
+Physics Department has a total salary of $182000.0
+Physics Department has a budget of $70000.0
+
+
+
+******** Query 6 ********
+Please enter the Department Name: 
+Music
+Music Department has 1 instructors
+Music Department has a total salary of $40000.0
+Music Department has a budget of $80000.0
